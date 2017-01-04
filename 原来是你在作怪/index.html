@@ -1,0 +1,607 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content=" - Shadowsocks - Blog - 流量," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="从上周开始，手机流量掉的飞快。周六晚上，睡前手机流量还有近500M，一觉醒来竟然超用了300+M!扣了几十块钱，关键是根本就没开什么东西啊。赶紧买了1G的流量包，用了不到三天，又用完了！而且在宿舍和办公室都是用wifi，办公室的wifi是自己的360随身wifi，时好时坏，但是绝大部分时间是连着的，只有在中午吃饭和用微信的时候使用手机流量。尽管如此，1G的流量包也用不了三天。查看了所有app的流量">
+<meta property="og:type" content="article">
+<meta property="og:title" content="原来是你在作怪">
+<meta property="og:url" content="https://chonghe.org/原来是你在作怪/index.html">
+<meta property="og:site_name" content="沖和斋">
+<meta property="og:description" content="从上周开始，手机流量掉的飞快。周六晚上，睡前手机流量还有近500M，一觉醒来竟然超用了300+M!扣了几十块钱，关键是根本就没开什么东西啊。赶紧买了1G的流量包，用了不到三天，又用完了！而且在宿舍和办公室都是用wifi，办公室的wifi是自己的360随身wifi，时好时坏，但是绝大部分时间是连着的，只有在中午吃饭和用微信的时候使用手机流量。尽管如此，1G的流量包也用不了三天。查看了所有app的流量">
+<meta property="og:updated_time" content="2016-10-26T21:54:50.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="原来是你在作怪">
+<meta name="twitter:description" content="从上周开始，手机流量掉的飞快。周六晚上，睡前手机流量还有近500M，一觉醒来竟然超用了300+M!扣了几十块钱，关键是根本就没开什么东西啊。赶紧买了1G的流量包，用了不到三天，又用完了！而且在宿舍和办公室都是用wifi，办公室的wifi是自己的360随身wifi，时好时坏，但是绝大部分时间是连着的，只有在中午吃饭和用微信的时候使用手机流量。尽管如此，1G的流量包也用不了三天。查看了所有app的流量">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://chonghe.org/原来是你在作怪/"/>
+
+
+
+
+
+  <title> 原来是你在作怪 | 沖和斋 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">沖和斋</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">万物负阴而抱阳，冲气以为和</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://chonghe.org/原来是你在作怪/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="TigreX">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="沖和斋">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="沖和斋" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                原来是你在作怪
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-27T04:52:13+08:00">
+                2016-10-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>从上周开始，手机流量掉的飞快。周六晚上，睡前手机流量还有近500M，一觉醒来竟然超用了300+M!扣了几十块钱，关键是根本就没开什么东西啊。赶紧买了1G的流量包，用了不到三天，又用完了！而且在宿舍和办公室都是用wifi，办公室的wifi是自己的360随身wifi，时好时坏，但是绝大部分时间是连着的，只有在中午吃饭和用微信的时候使用手机流量。尽管如此，1G的流量包也用不了三天。查看了所有app的流量使用情况，与实际掉的流量差数倍，真是见了鬼，为了防止流量偷跑，我安装了LBS手机监控，把所有app涉及上传、更新的都设置成wifi-only，使用绿色守护关掉除了ss外的所有后台程序，甚至重新刷了系统，清空了手机，所有app都到Google play重新下载安装，然后回到宿舍的时候关掉数据流量，避免晚上流量偷跑。即使如此流量都是掉的飞快，是我百思不得其解。</p>
+<p>自从月初把Blog从Vultr搬到Bandwagon,一直用得都挺顺手的。VPS上面只搭建了Blog和SS，内存使用一直稳定在130M左右，512M的内存用起来绰绰有余了。然而前天打开后台看了看，内存竟然飙到了300多M，虚拟内存更是几乎爆掉了，当时并没有太在意，重启了一下服务器就降回去了。昨天又打开后台，发现内存又飙回去了，这次才开始重视，搜了一下查看进程的命令，用<code>top</code>命令看了下，其中PID 1034这个进程就占用了27%的内存，但是我又无法确定这是哪个进程，没敢关掉。当时快下班了，而且也没有影响到Blog正常使用，就先放下了。</p>
+<p>今天又用<code>top</code>命令结合<code>netstat -antup</code>终于知道了PID 1034对应的进程和端口，找到了所有问题的症结，原来这一切都是kcptun在作怪！</p>
+<p>上周我在VPS是部署了kcptun来配合SS，速度提高了很多，当时并没有仔细阅读相关文档，现在才知道它和net-speed一样是用带宽换延迟，而且是双边加速，根据参数的设定多消耗流量达4倍以上。难怪我的手机流量掉的那么快，我关掉了一切，只留下ss，然而流量就是从ss跑的，What the fuck!</p>
+<p>kcptun以后只能在wifi的时候才打开了，珍惜流量，远离kcptun!</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Shadowsocks-Blog-流量/" rel="tag">#  - Shadowsocks - Blog - 流量</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/New Moto X Andriod 6.0 update/" rel="next" title="New Moto X Andriod 6.0 update">
+                <i class="fa fa-chevron-left"></i> New Moto X Andriod 6.0 update
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/奇葩的一天/" rel="prev" title="奇葩的一天">
+                奇葩的一天 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="TigreX" />
+          <p class="site-author-name" itemprop="name">TigreX</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">48</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">40</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">TigreX</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
